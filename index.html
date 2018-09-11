@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chrome scroll bug 2018/06/22</title>
+  </head>
+  <body style="height: 100%; margin: 0;">
+    <div style="height: 100%; overflow-x:hidden;">
+      <div style="height: 500px; overflow-x: auto; background-color: #eee;">
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+        <div style="height: 300px;">hoge</div>
+      </div>
+      ↑ background-color: #eee; はスクロール範囲のわかりやすさのため。<br />
+      sytle をどれか一つでも外すとスクロールするはず。<br />
+      Chrome Version: 67.0.3396.87（Official Build） （64 ビット）
+    </div>
+  </body>
+</html>

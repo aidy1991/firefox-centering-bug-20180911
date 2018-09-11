@@ -1,1 +1,1 @@
-# firefox-image-centering-bug-20180911
+# firefox-centering-bug-20180911
